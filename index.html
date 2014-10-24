@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <script src="js/jquery.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/jquery.mobile-1.4.0.min.js"></script>
+</head>
+<body>
+  <div  data-role="header" data-position="fixed" data-theme="a">	
+    <a href="#main_menu" data-icon="flat-menu" data-transition="reveal" class="f-menu menu_control"></a>
+
+     <h2>Learn Astronomy</h2>
+
+</div>
+<div id="home" data-role="page" data-theme="b">
+    <div role="main" >
+      <div class="photocont">
+      <img src="assets/images/solar.jpg" />
+      </div>
+        <div class="ui-content">
+          <h3>Learn About The Universe</h3>
+            <button data-theme="a">Start Tour</button>
+        </div>
+    </div>
+</div>
+    <!-- /content -->
+<div id="planetdet" data-role="page" data-theme="b">
+    <div class="photocont">
+    <img src="assets/images/sun.jpg" />
+    </div>
+    <div role="main" class="ui-content">
+        	<h1 id="planettitle">The Sun</h1>
+      
+      <div class="ui-grid-b">
+            <div  class="ui-block-a">
+                    
+            </div>
+               <div class="ui-body ui-body-a ui-corner-all">
+          <h3>Heading</h3>
+            <p id="planetdesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan blandit fermentum. Pellentesque cursus mauris purus, auctor commodo mi ullamcorper nec. Donec semper mattis eros, nec condimentum ante sollicitudin quis. Etiam orci sem, porttitor ut tellus nec, blandit posuere urna. Proin a arcu non lacus pretium faucibus. Aliquam sed est porttitor, ullamcorper urna nec, vehicula lorem. Cras porttitor est lorem, non venenatis diam convallis congue.</p>
+        </div>
+        
+      </div>
+    </div>
+</div>
+    <!-- /content -->
+</div>
+<!-- /page -->
+<div id="planets" data-role="page">
+    <div role="main" class="ui-content">
+        	<h1>Planets</h1>
+     <ul id="planetlist" data-role="listview" data-theme="c">
+			
+			
+		</ul>
+		</div>
+
+
+    </div>
+    <!-- /content -->
+<!-- /page -->
+  <div id="satellites" data-role="page" data-theme="b">
+    <div role="main" class="ui-content">
+        	<h1>Satellites</h1>
+
+    </div>
+    <!-- /content -->
+</div>
+<!-- /page -->
+<div id="asteroids" data-role="page">
+    <div role="main" class="ui-content">
+        	<h1>Asteroids</h1>
+
+    </div>
+    <!-- /content -->
+</div>
+<!-- /page -->
+  <div id="about" data-role="page" data-theme="b">
+    <div role="main" class="ui-content">
+        	<h1>About</h1>
+
+    </div>
+    <!-- /content -->
+</div>
+
+<div data-role="panel"  id="main_menu" data-position="left" data-display="overlay" data-theme="a">
+  <h1>Menu</h1>
+    <ul data-role="listview" id="menu_contents">
+        
+        <li> <a href="#home" >Home</a>
+
+        <li> <a href="#planets" >Planets</a>
+
+        </li>
+        <li> <a href="#satellites" >Satellites</a>
+
+        </li>
+        <li> <a href="#asteroids" >Asteroids</a>
+
+        </li>
+        <li> <a href="#about" >About</a>
+
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

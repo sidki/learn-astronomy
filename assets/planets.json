@@ -1,0 +1,74 @@
+{
+  "planet": [
+    {
+      "name": "Sun",
+      "diameter": "1,390,000",
+      "mass": "1.989e30",
+      "temperature": "5800 K Surface, 15,600,000 K (core)",
+      "description": "The Sun is by far the largest object in the solar system. It contains more than 99.8% of the total mass of the Solar System (Jupiter contains most of the rest).It is often said that the Sun is an \"ordinary\" star. That's true in the sense that there are many others similar to it. But there are many more smaller stars than larger ones; the Sun is in the top 10% by mass. The median size of stars in our galaxy is probably less than half the mass of the Sun."
+    },
+    {
+      "name": "Mercury",
+      "diameter": "4,880 km",
+      "mass": "3.30e23 kg",
+      "orbit": "57,910,000 km (0.38 AU) from Sun",
+      "description": "In Roman mythology Mercury is the god of commerce, travel and thievery, the Roman counterpart of the Greek god Hermes, the messenger of the Gods. The planet probably received this name because it moves so quickly across the sky. Mercury has been known since at least the time of the Sumerians (3rd millennium BC). It was sometimes given separate names for its apparitions as a morning star and as an evening star. Greek astronomers knew, however, that the two names referred to the same body. Heraclitus even believed that Mercury and Venus orbit the Sun, not the Earth."
+    },
+    {
+      "name": "Venus",
+      "diameter": "108,200,000 km (0.72 AU) from Sun",
+      "mass": "4.869e24 kg",
+      "orbit": "108,200,000 km (0.72 AU) from Sun",
+      "description": "Venus (Greek: Aphrodite; Babylonian: Ishtar) is the goddess of love and beauty. The planet is so named probably because it is the brightest of the planets known to the ancients. (With a few exceptions, the surface features on Venus are named for female figures.) Venus has been known since prehistoric times. It is the brightest object in the sky except for the Sun and the Moon. Like Mercury, it was popularly thought to be two separate bodies: Eosphorus as the morning star and Hesperus as the evening star, but the Greek astronomers knew better. (Venus's apparition as the morning star is also sometimes called Lucifer.)"
+    },
+    {
+      "name": "Earth",
+      "diameter": "12,756.3 km",
+      "mass": "5.972e24 kg",
+      "orbit": "149,600,000 km (1.00 AU) from Sun",
+      "description": "Earth is the only planet whose English name does not derive from Greek/Roman mythology. The name derives from Old English and Germanic. There are, of course, hundreds of other names for the planet in other languages. In Roman Mythology, the goddess of the Earth was Tellus - the fertile soil (Greek: Gaia, terra mater - Mother Earth). It was not until the time of Copernicus (the sixteenth century) that it was understood that the Earth is just another planet."
+    },
+    {
+      "name": "Mars",
+      "diameter": "6,794 km",
+      "mass": "6.4219e23 kg",
+      "orbit": "227,940,000 km (1.52 AU) from Sun",
+      "description": "Mars (Greek: Ares) is the god of War. The planet probably got this name due to its red color; Mars is sometimes referred to as the Red Planet. (An interesting side note: the Roman god Mars was a god of agriculture before becoming associated with the Greek Ares; those in favor of colonizing and terraforming Mars may prefer this symbolism.) The name of the month March derives from Mars."
+    },
+    {
+      "name": "Jupiter",
+      "diameter": "142,984 km (equatorial)",
+      "mass": "1.900e27 kg",
+      "orbit": "778,330,000 km (5.20 AU) from Sun",
+      "description": "Jupiter is the fourth brightest object in the sky (after the Sun, the Moon and Venus). It has been known since prehistoric times as a bright \"wandering star\". But in 1610 when Galileo first pointed a telescope at the sky he discovered Jupiter's four large moons Io, Europa, Ganymede and Callisto (now known as the Galilean moons) and recorded their motions back and forth around Jupiter. This was the first discovery of a center of motion not apparently centered on the Earth. It was a major point in favor of Copernicus's heliocentric theory of the motions of the planets (along with other new evidence from his telescope: the phases of Venus and the mountains on the Moon)."
+    },
+    {
+      "name": "Saturn",
+      "diameter": "120,536 km (equatorial)",
+      "mass": "5.68e26 kg",
+      "orbit": "1,429,400,000 km (9.54 AU) from Sun",
+      "description": "Saturn has been known since prehistoric times. Galileo was the first to observe it with a telescope in 1610; he noted its odd appearance but was confused by it. Early observations of Saturn were complicated by the fact that the Earth passes through the plane of Saturn's rings every few years as Saturn moves in its orbit. A low resolution image of Saturn therefore changes drastically. It was not until 1659 that Christiaan Huygens correctly inferred the geometry of the rings. Saturn's rings remained unique in the known solar system until 1977 when very faint rings were discovered around Uranus (and shortly thereafter around Jupiter and Neptune)."
+    },
+    {
+      "name": "Uranus",
+      "diameter": "51,118 km (equatorial)",
+      "mass": "8.683e25 kg",
+      "orbit": "2,870,990,000 km (19.218 AU) from Sun",
+      "description": "Uranus, the first planet discovered in modern times, was discovered by William Herschel while systematically searching the sky with his telescope on March 13, 1781. It had actually been seen many times before but ignored as simply another star (the earliest recorded sighting was in 1690 when John Flamsteed cataloged it as 34 Tauri). Herschel named it \"the Georgium Sidus\" (the Georgian Planet) in honor of his patron, the infamous (to Americans) King George III of England; others called it \"Herschel\". The name \"Uranus\" was first proposed by Bode in conformity with the other planetary names from classical mythology but didn't come into common use until 1850."
+    },
+    {
+      "name": "Neptune",
+      "diameter": "49,532 km (equatorial)",
+      "mass": "1.0247e26 kg",
+      "orbit": "4,504,000,000 km (30.06 AU) from Sun",
+      "description": "After the discovery of Uranus, it was noticed that its orbit was not as it should be in accordance with Newton's laws. It was therefore predicted that another more distant planet must be perturbing Uranus' orbit. Neptune was first observed by Galle and d'Arrest on 1846 Sept 23 very near to the locations independently predicted by Adams and Le Verrier from calculations based on the observed positions of Jupiter, Saturn and Uranus. An international dispute arose between the English and French (though not, apparently between Adams and Le Verrier personally) over priority and the right to name the new planet; they are now jointly credited with Neptune's discovery."
+    },
+    {
+      "name": "Pluto",
+      "diameter": "2274 km",
+      "mass": "1.27e22 kg",
+      "orbit": "5,913,520,000 km (39.5 AU) from the Sun (average)",
+      "description": "In Roman mythology, Pluto (Greek: Hades) is the god of the underworld. The planet received this name (after many other suggestions) perhaps because it's so far from the Sun that it is in perpetual darkness and perhaps because \"PL\" are the initials of Percival Lowell. Pluto was discovered in 1930 by a fortunate accident. Calculations which later turned out to be in error had predicted a planet beyond Neptune, based on the motions of Uranus and Neptune. Not knowing of the error, Clyde W. Tombaugh at Lowell Observatory in Arizona did a very careful sky survey which turned up Pluto anyway."
+    }
+  ]
+}

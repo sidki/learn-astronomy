@@ -1,0 +1,8 @@
+.photocont{
+  width: 100%;
+  height: 20%;
+}
+.photocont img{
+  height: auto;
+  width: 100%;
+}

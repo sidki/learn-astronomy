@@ -16,7 +16,7 @@
     },
     {
       "name": "Venus",
-      "diameter": "108,200,000 km (0.72 AU) from Sun",
+      "diameter": "12,103.6 km",
       "mass": "4.869e24 kg",
       "orbit": "108,200,000 km (0.72 AU) from Sun",
       "description": "Venus (Greek: Aphrodite; Babylonian: Ishtar) is the goddess of love and beauty. The planet is so named probably because it is the brightest of the planets known to the ancients. (With a few exceptions, the surface features on Venus are named for female figures.) Venus has been known since prehistoric times. It is the brightest object in the sky except for the Sun and the Moon. Like Mercury, it was popularly thought to be two separate bodies: Eosphorus as the morning star and Hesperus as the evening star, but the Greek astronomers knew better. (Venus's apparition as the morning star is also sometimes called Lucifer.)"
@@ -69,6 +69,13 @@
       "mass": "1.27e22 kg",
       "orbit": "5,913,520,000 km (39.5 AU) from the Sun (average)",
       "description": "In Roman mythology, Pluto (Greek: Hades) is the god of the underworld. The planet received this name (after many other suggestions) perhaps because it's so far from the Sun that it is in perpetual darkness and perhaps because \"PL\" are the initials of Percival Lowell. Pluto was discovered in 1930 by a fortunate accident. Calculations which later turned out to be in error had predicted a planet beyond Neptune, based on the motions of Uranus and Neptune. Not knowing of the error, Clyde W. Tombaugh at Lowell Observatory in Arizona did a very careful sky survey which turned up Pluto anyway."
+    },
+    {
+      "name": "Moon",
+      "diameter": "3476 km",
+      "mass": "7.35e22 kg",
+      "orbit": "384,400 km from Earth",
+      "description": "The Moon, of course, has been known since prehistoric times. It is the second brightest object in the sky after the Sun. As the Moon orbits around the Earth once per month, the angle between the Earth, the Moon and the Sun changes; we see this as the cycle of the Moon's phases. The time between successive new moons is 29.5 days (709 hours), slightly different from the Moon's orbital period (measured against the stars) since the Earth moves a significant distance in its orbit around the Sun in that time."
     }
   ]
 }

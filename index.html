@@ -28,23 +28,24 @@
     </div>
 </div>
     <!-- /content -->
-<div id="planetdet" data-role="page" data-theme="b">
+<div id="planetdet" data-role="page" data-theme="c">
     <div class="photocont">
-    <img src="assets/images/sun.jpg" />
+    <img id="headImg" src="assets/images/Sun.jpg" />
     </div>
     <div role="main" class="ui-content">
         	<h1 id="planettitle">The Sun</h1>
       
       <div class="ui-grid-b">
-            <div  class="ui-block-a">
-                    
-            </div>
+
                <div class="ui-body ui-body-a ui-corner-all">
-          <h3>Heading</h3>
-            <p id="planetdesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan blandit fermentum. Pellentesque cursus mauris purus, auctor commodo mi ullamcorper nec. Donec semper mattis eros, nec condimentum ante sollicitudin quis. Etiam orci sem, porttitor ut tellus nec, blandit posuere urna. Proin a arcu non lacus pretium faucibus. Aliquam sed est porttitor, ullamcorper urna nec, vehicula lorem. Cras porttitor est lorem, non venenatis diam convallis congue.</p>
-        </div>
+                   <h3>Diameter</h3><span id="diameter"></span>
+                   <h3>Mass</h3><span id="mass"></span>
+                   <h3>Orbit</h3><span id="orbit"></span>
+                   <h2>More Info</h2>
+                   <p id="planetdesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan blandit fermentum. Pellentesque cursus mauris purus, auctor commodo mi ullamcorper nec. Donec semper mattis eros, nec condimentum ante sollicitudin quis. Etiam orci sem, porttitor ut tellus nec, blandit posuere urna. Proin a arcu non lacus pretium faucibus. Aliquam sed est porttitor, ullamcorper urna nec, vehicula lorem. Cras porttitor est lorem, non venenatis diam convallis congue.</p>
+               </div>
         
-      </div>
+            </div>
     </div>
 </div>
     <!-- /content -->
@@ -53,9 +54,7 @@
 <div id="planets" data-role="page">
     <div role="main" class="ui-content">
         	<h1>Planets</h1>
-     <ul id="planetlist" data-role="listview" data-theme="c">
-			
-			
+     <ul id="planetlist" data-role="listview" data-theme="c">	
 		</ul>
 		</div>
 
@@ -63,25 +62,36 @@
     </div>
     <!-- /content -->
 <!-- /page -->
-  <div id="satellites" data-role="page" data-theme="b">
+  <div id="stars" data-role="page" data-theme="b">
+      <div class="photocont">
+        <img id="headImg" src="assets/images/stars.jpg" />
+        </div>
     <div role="main" class="ui-content">
-        	<h1>Satellites</h1>
+        
+        	<h1>Stars</h1>
+        <p id="planetdesc">A star is a massive, luminous sphere of plasma held together by its own gravity. 
+            The nearest star to Earth is the Sun, which is the source of most of the planet's energy. 
+            Some other stars are visible from Earth during the night, appearing as a multitude of fixed luminous points due to their immense distance. 
+            Historically, the most prominent stars were grouped into constellations and asterisms, and the brightest stars gained proper names. 
+            Extensive catalogues of stars have been assembled by astronomers, which provide standardized star designations.</p>
+               
 
     </div>
     <!-- /content -->
 </div>
 <!-- /page -->
-<div id="asteroids" data-role="page">
+  <div id="galaxies" data-role="page" data-theme="b">
+      <div class="photocont">
+        <img id="headImg" src="assets/images/galaxies.jpg" />
+        </div>
     <div role="main" class="ui-content">
-        	<h1>Asteroids</h1>
-
-    </div>
-    <!-- /content -->
-</div>
-<!-- /page -->
-  <div id="about" data-role="page" data-theme="b">
-    <div role="main" class="ui-content">
-        	<h1>About</h1>
+        
+        	<h1>Stars</h1>
+        <p id="planetdesc">Galaxies contain varying numbers of planets, star systems, star clusters and types of interstellar clouds. 
+            In between these objects is a sparse interstellar medium of gas, dust, and cosmic rays. Supermassive black holes reside at the center of most galaxies. 
+            They are thought to be the primary driver of active galactic nuclei found at the core of some galaxies. 
+            The Milky Way galaxy is known to harbor at least one such object.</p>
+               
 
     </div>
     <!-- /content -->
@@ -93,13 +103,13 @@
         
         <li> <a href="#home" >Home</a>
 
-        <li> <a href="#planets" >Planets</a>
+        <li> <a href="#planets" >Solar System</a>
 
         </li>
-        <li> <a href="#satellites" >Satellites</a>
+        <li> <a href="#stars" >Stars</a>
 
         </li>
-        <li> <a href="#asteroids" >Asteroids</a>
+        <li> <a href="#galaxies" >Gallaxies</a>
 
         </li>
         <li> <a href="#about" >About</a>

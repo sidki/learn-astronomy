@@ -1,6 +1,6 @@
 {
-  "name": "Learn Solar System",
-  "description": "A Hello World app",
+  "name": "Learn Astronomy",
+  "description": "Learn Astronomy is an application designed for Space lovers.",
   "launch_path": "/index.html",
   "icons": {
     "16": "/icons/icon16x16.png",
@@ -8,6 +8,11 @@
     "60": "/icons/icon60x60.png",
     "128": "/icons/icon128x128.png"
   },
-  "type": "privileged",
+  "developer": {
+    "name": "Sidki KBOUBI",
+    "url": "http://sidkikboubi.me"
+  },
+  "default_locale": "en",
+  "type": "web",
   "permissions": {}
 }

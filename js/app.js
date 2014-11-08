@@ -6,7 +6,7 @@ $.getJSON( "../assets/planets.json", function( data ) {
 
 var loadPlanetList = function( data ) {
 for (var i = 0; i < data.planet.length; i++) { 
-		$('#planetlist').append('<li id="'+data.planet[i].name+'" data-theme="a"><img src="assets/images/'+data.planet[i].name + '.jpg" /><h3>'+ data.planet[i].name +'</h3><p>'+ data.planet[i].description +'</p></a></li>');
+		$('#planetlist').append('<li id="'+data.planet[i].name+'" data-theme="e"><img src="assets/images/'+data.planet[i].name + '.jpg" /><h3>'+ data.planet[i].name +'</h3><p>'+ data.planet[i].description +'</p></a></li>');
 }
 };
 var loadPlanet = function( data ) {
@@ -37,17 +37,7 @@ window.addEventListener("load", function() {
     loadPlanet(obj);
     
 });
-$(function () {
-    $("[data-role=header],[data-role=footer]").toolbar().enhanceWithin();
-    $("[data-role=panel]").panel().enhanceWithin();
-});
 
-$(document).on("pagecreate", function () {
-    $("[data-role=panel]").one("panelbeforeopen", function () {
-        var height = $.mobile.pageContainer.pagecontainer("getActivePage").outerHeight();
-        $(".ui-panel-wrapper").css("height", height + 1);
-    });
-});
 
 
 

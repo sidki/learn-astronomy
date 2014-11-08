@@ -1,122 +1,145 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
-  <link rel="stylesheet" type="text/css" href="css/main.css" />
-  <script src="js/jquery.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/jquery.mobile-1.4.0.min.js"></script>
-</head>
-<body>
-  <div  data-role="header" data-position="fixed" data-theme="a">	
-    <a href="#main_menu" data-icon="flat-menu" data-transition="reveal" class="f-menu menu_control"></a>
-
-     <h2>Learn Astronomy</h2>
-
-</div>
-<div id="home" data-role="page" data-theme="b">
-    <div role="main" >
-      <div class="photocont">
-      <img src="assets/images/solar.jpg" />
-      </div>
-        <div class="ui-content">
-          <h3>Learn About The Universe</h3>
-            <button data-theme="a">Start Tour</button>
-        </div>
-    </div>
-</div>
-    <!-- /content -->
-<div id="planetdet" data-role="page" data-theme="c">
-    <div class="photocont">
-    <img id="headImg" src="assets/images/Sun.jpg" />
-    </div>
-    <div role="main" class="ui-content">
-        	<h1 id="planettitle">The Sun</h1>
-      
-      <div class="ui-grid-b">
-
-               <div class="ui-body ui-body-a ui-corner-all">
-                   <h3>Diameter</h3><span id="diameter"></span>
-                   <h3>Mass</h3><span id="mass"></span>
-                   <h3>Orbit</h3><span id="orbit"></span>
-                   <h2>More Info</h2>
-                   <p id="planetdesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan blandit fermentum. Pellentesque cursus mauris purus, auctor commodo mi ullamcorper nec. Donec semper mattis eros, nec condimentum ante sollicitudin quis. Etiam orci sem, porttitor ut tellus nec, blandit posuere urna. Proin a arcu non lacus pretium faucibus. Aliquam sed est porttitor, ullamcorper urna nec, vehicula lorem. Cras porttitor est lorem, non venenatis diam convallis congue.</p>
-               </div>
-        
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
+      <link rel="stylesheet" type="text/css" href="css/main.css" />
+      <script src="js/jquery.js"></script>
+      <script src="js/app.js"></script>
+      <script src="js/jquery.mobile-1.4.0.min.js"></script>
+   </head>
+   <body>
+      <div id="home" data-role="page" data-theme="a">
+         <div  data-role="header" data-position="fixed" data-theme="a">
+            <a href="#main_menu" data-icon="flat-menu" data-transition="reveal" class="f-menu menu_control">Menu</a>
+            <h2>Learn Astronomy</h2>
+         </div>
+         <div data-role="panel"  id="main_menu" data-position="left" data-display="overlay" data-theme="a">
+               <div  data-role="header" data-position="fixed" data-theme="a">
+               <h2>Main Menu</h2>
             </div>
-    </div>
-</div>
-    <!-- /content -->
-</div>
-<!-- /page -->
-<div id="planets" data-role="page">
-    <div role="main" class="ui-content">
-        	<h1>Planets</h1>
-     <ul id="planetlist" data-role="listview" data-theme="c">	
-		</ul>
-		</div>
-
-
-    </div>
-    <!-- /content -->
-<!-- /page -->
-  <div id="stars" data-role="page" data-theme="b">
-      <div class="photocont">
-        <img id="headImg" src="assets/images/stars.jpg" />
-        </div>
-    <div role="main" class="ui-content">
-        
-        	<h1>Stars</h1>
-        <p id="planetdesc">A star is a massive, luminous sphere of plasma held together by its own gravity. 
-            The nearest star to Earth is the Sun, which is the source of most of the planet's energy. 
-            Some other stars are visible from Earth during the night, appearing as a multitude of fixed luminous points due to their immense distance. 
-            Historically, the most prominent stars were grouped into constellations and asterisms, and the brightest stars gained proper names. 
-            Extensive catalogues of stars have been assembled by astronomers, which provide standardized star designations.</p>
+               <ul data-theme="c" data-role="listview" id="menu_contents">
+                  <li > <a href="#home" >Home</a></li>
+                  <li> <a href="#planets" >Solar System</a>
+                  </li>
+                  <li> <a href="#stars" >Stars</a>
+                  </li>
+                  <li> <a href="#galaxies" >Gallaxies</a>
+                  </li>
+                  <li> <a href="#about" >About</a>
+                  </li>
+               </ul>
+          </div>
+         <div role="main" >
+            
+            <div class="photocont">
+               <img src="assets/images/solar.jpg" />
+            </div>
+            <div class="ui-content">
+               <h3>Learn About The Universe</h3>
+               <a href="#planets" style="text-decoration: none"><button data-theme="a">Start Tour</button></a>
+            </div>
+         </div>
+      </div>
+      <!-- /content -->
+      <div id="planetdet" data-role="page" data-theme="a">
+         <div  data-role="header" data-position="fixed" data-theme="a">
+            <a href="#planets" data-icon="arrow-l">Back</a>
+            <h2>Learn Astronomy</h2>
+         </div>
+         <div class="photocont">
+            <img id="headImg" src="assets/images/Sun.jpg" />
+         </div>
+         <div role="main" class="ui-content">
+            <h1 id="planettitle">The Sun</h1>
+            <div class="ui-grid-b">
+               <div class="ui-body ui-body-a ui-corner-all">
+                  <h2>Diameter</h2>
+                  <span id="diameter"></span>
+                  <h2>Mass</h2>
+                  <span id="mass"></span>
+                  <h2>Orbit</h2>
+                  <span id="orbit"></span>
+                  <h2>More Info</h2>
+                  <p id="planetdesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan blandit fermentum. Pellentesque cursus mauris purus, auctor commodo mi ullamcorper nec. Donec semper mattis eros, nec condimentum ante sollicitudin quis. Etiam orci sem, porttitor ut tellus nec, blandit posuere urna. Proin a arcu non lacus pretium faucibus. Aliquam sed est porttitor, ullamcorper urna nec, vehicula lorem. Cras porttitor est lorem, non venenatis diam convallis congue.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- /content -->
+      <!-- /page -->
+      <div id="planets" data-role="page">
+         <div  data-role="header" data-position="fixed" data-theme="a">
+            <a href="#home" data-icon="arrow-l" >Back</a>
+            <h2>Learn Astronomy</h2>
+         </div>
+         <div role="main" class="ui-content">
+            <h1>Solar System</h1>
+            <ul id="planetlist" data-role="listview" data-theme="a">	
+            </ul>
+         </div>
+      </div>
+      <!-- /content -->
+      <!-- /page -->
+      <div id="stars" data-role="page" data-theme="a">
+         <div  data-role="header" data-position="fixed" data-theme="a">
+            <a href="#home" data-icon="arrow-l" >Back</a>
+            <h2>Learn Astronomy</h2>
+         </div>
+         <div class="photocont">
+            <img id="headImg" src="assets/images/stars.jpg" />
+         </div>
+         <div role="main" class="ui-content">
+            <h1>Stars</h1>
+            <p class="ui-body ui-body-a ui-corner-all" id="planetdesc">A star is a massive, luminous sphere of plasma held together by its own gravity. 
+               The nearest star to Earth is the Sun, which is the source of most of the planet's energy. 
+               Some other stars are visible from Earth during the night, appearing as a multitude of fixed luminous points due to their immense distance. 
+               Historically, the most prominent stars were grouped into constellations and asterisms, and the brightest stars gained proper names. 
+               Extensive catalogues of stars have been assembled by astronomers, which provide standardized star designations.
+            </p>
+         </div>
+         <!-- /content -->
+      </div>
+      <!-- /page -->
+      <div id="galaxies" data-role="page" data-theme="a">
+         <div  data-role="header" data-position="fixed" data-theme="a">
+            <a href="#home" data-icon="arrow-l">Back</a>
+            <h2>Learn Astronomy</h2>
+         </div>
+         <div class="photocont">
+            <img id="headImg" src="assets/images/galaxies.jpg" />
+         </div>
+         <div role="main" class="ui-content">
+            <h1>Stars</h1>
+            <p id="planetdesc">Galaxies contain varying numbers of planets, star systems, star clusters and types of interstellar clouds. 
+               In between these objects is a sparse interstellar medium of gas, dust, and cosmic rays. Supermassive black holes reside at the center of most galaxies. 
+               They are thought to be the primary driver of active galactic nuclei found at the core of some galaxies. 
+               The Milky Way galaxy is known to harbor at least one such object.
+            </p>
+         </div>
+         <!-- /content -->
+      </div>
+      <div id="about" data-role="page" data-theme="a">
+         <div  data-role="header" data-position="fixed" data-theme="a">
+            <a href="#home" data-icon="arrow-l" >Back</a>
+            <h2>Learn Astronomy</h2>
+         </div>
+         <div class="photocont">
+               <img src="assets/images/solar.jpg" />
+            </div>
+         <div role="main" class="ui-content">
+            <h1>About</h1>
+            
+            <p id="planetdesc">
+               Learn Astronomy is an application designed for Space lovers.
+               Now you can find the main needed information about the solar system and basics of astronomy in your pocket.
+             
                
-
-    </div>
-    <!-- /content -->
-</div>
-<!-- /page -->
-  <div id="galaxies" data-role="page" data-theme="b">
-      <div class="photocont">
-        <img id="headImg" src="assets/images/galaxies.jpg" />
-        </div>
-    <div role="main" class="ui-content">
-        
-        	<h1>Stars</h1>
-        <p id="planetdesc">Galaxies contain varying numbers of planets, star systems, star clusters and types of interstellar clouds. 
-            In between these objects is a sparse interstellar medium of gas, dust, and cosmic rays. Supermassive black holes reside at the center of most galaxies. 
-            They are thought to be the primary driver of active galactic nuclei found at the core of some galaxies. 
-            The Milky Way galaxy is known to harbor at least one such object.</p>
-               
-
-    </div>
-    <!-- /content -->
-</div>
-
-<div data-role="panel"  id="main_menu" data-position="left" data-display="overlay" data-theme="a">
-  <h1>Menu</h1>
-    <ul data-role="listview" id="menu_contents">
-        
-        <li> <a href="#home" >Home</a>
-
-        <li> <a href="#planets" >Solar System</a>
-
-        </li>
-        <li> <a href="#stars" >Stars</a>
-
-        </li>
-        <li> <a href="#galaxies" >Gallaxies</a>
-
-        </li>
-        <li> <a href="#about" >About</a>
-
-        </li>
-    </ul>
-</div>
-
-</body>
+            </p>
+            
+         </div>
+         <!-- /content -->
+      </div>
+   </body>
 </html>

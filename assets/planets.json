@@ -4,8 +4,8 @@
       "name": "Sun",
       "diameter": "1,390,000",
       "mass": "1.989e30",
-      "temperature": "5800 K Surface, 15,600,000 K (core)",
-      "description": "The Sun is by far the largest object in the solar system. It contains more than 99.8% of the total mass of the Solar System (Jupiter contains most of the rest).It is often said that the Sun is an \"ordinary\" star. That's true in the sense that there are many others similar to it. But there are many more smaller stars than larger ones; the Sun is in the top 10% by mass. The median size of stars in our galaxy is probably less than half the mass of the Sun."
+      "orbit": "Fixed",
+      "description": "The Sun is by far the largest object in the solar system with a 5800 K in Surface and 15,600,000 K in core temperature. \nIt contains more than 99.8% of the total mass of the Solar System (Jupiter contains most of the rest).It is often said that the Sun is an \"ordinary\" star. That's true in the sense that there are many others similar to it. But there are many more smaller stars than larger ones; the Sun is in the top 10% by mass. The median size of stars in our galaxy is probably less than half the mass of the Sun."
     },
     {
       "name": "Mercury",
